@@ -143,7 +143,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ isDarkMode, onOpenAiAs
 
               <a
                 href={PERSONAL_INFO.resumePdf}
-                download="Zahra-Zaranwala-Resume.pdf"
+                 target="_blank"
+                 rel="noopener noreferrer"
                 className={`px-5 py-3.5 rounded-xl border text-sm font-semibold flex items-center gap-2 transition-all duration-300 ${
                   isDarkMode
                     ? 'bg-slate-900/80 border-cyan-500/30 text-cyan-300 hover:bg-slate-800 hover:border-cyan-400'
