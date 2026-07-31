@@ -1,0 +1,1485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<meta name="google-site-verification" content="dGTACd-dSdlN5tmnFqW2sSFUrHO6tCVd61RK2PFgdbM" />
+</header>
+
+  <title>Zahra Zaranwala | ECE Student Portfolio | AI & Tech Projects</title>
+</head>
+  
+  <!-- SEO Title -->
+  <title>Zahra Zaranwala | ECE Student Portfolio | AI & Tech Projects</title>
+
+  <!-- SEO Meta Description -->
+  <meta
+    name="description"
+    content="Official portfolio of Zahra Zaranwala, an Electronics and Communication Engineering student showcasing AI, web development, projects, skills, certifications, and achievements."
+  />
+
+  <!-- SEO Keywords -->
+  <meta
+    name="keywords"
+    content="Zahra Zaranwala, Zahra Zaranwala portfolio, ECE student portfolio, AI student, Electronics and Communication Engineering, tech portfolio, web developer, engineering student"
+  />
+
+  <!-- Author -->
+  <meta name="author" content="Zahra Zaranwala" />
+
+  <!-- Google can index -->
+  <meta name="robots" content="index, follow" />
+
+  <!-- Canonical URL -->
+<link rel="canonical" href="https://zahralabssite.vercel.app/" />
+
+  <!-- Open Graph (for WhatsApp / Instagram / social preview) -->
+  <meta property="og:title" content="Zahra Zaranwala | Portfolio" />
+  <meta
+    property="og:description"
+    content="Explore my projects, skills, certifications, and tech journey."
+  />
+  <meta property="og:url" content="https://zahralabssite.vercel.app" />
+  <meta property="og:type" content="website" />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+
+  <!-- Typed JS -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Zahra Zaranwala",
+    "url": "https://zahratech123.github.io/zatech-ad-portfolio/",
+    "image": "https://zahratech123.github.io/zatech-ad-portfolio/my.jpg",
+    "jobTitle": "Electronics & Communication Engineering Student",
+    "description": "Official premium portfolio of Zahra Zaranwala, ECE student, AI learner, future AI Product Engineer.",
+    "sameAs": [
+      "https://github.com/zahratech123",
+      "https://linkedin.com/in/gecdhd-ec-zahra"
+    ]
+  }
+  </script>
+
+  <style>
+    :root{
+      --bg: #0b0f1a;
+      --bg2: #121826;
+      --card: rgba(255,255,255,0.05);
+      --text: #ffffff;
+      --muted: #c8d1ea;
+      --primary: #00ffe5;
+      --secondary: #ff4fd8;
+      --border: rgba(255,255,255,0.08);
+      --shadow: rgba(0,255,229,0.15);
+    }
+
+    body.light-mode{
+      --bg: #f4f8ff;
+      --bg2: #ffffff;
+      --card: rgba(255,255,255,0.9);
+      --text: #111827;
+      --muted: #4b5563;
+      --primary: #00bfa6;
+      --secondary: #d633b6;
+      --border: rgba(17,24,39,0.08);
+      --shadow: rgba(0,191,166,0.15);
+    }
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      scroll-behavior:smooth;
+    }
+
+    body{
+      font-family:'Poppins',sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      overflow-x:hidden;
+      transition:0.35s ease;
+    }
+
+    a{ text-decoration:none; color:inherit; }
+    ul{ list-style:none; }
+
+    .container{
+      width:90%;
+      max-width:1200px;
+      margin:auto;
+    }
+
+    section{
+      padding:90px 0;
+    }
+
+    .section-title{
+      text-align:center;
+      font-size:36px;
+      margin-bottom:12px;
+      color:var(--primary);
+    }
+
+    .section-subtitle{
+      text-align:center;
+      color:var(--muted);
+      max-width:760px;
+      margin:0 auto 45px;
+      line-height:1.8;
+    }
+
+    .section-image-btn-wrap{
+      text-align:center;
+    }
+
+    .image-open-btn{
+     width:150px; 
+      height:150px;
+      border-radius:50%;
+      margin-top:10px;">
+    }
+
+    .image-open-btn:hover{
+      transform:translateY(-3px);
+      background:var(--primary);
+      color:#000;
+    }
+
+    /* Navbar */
+    .navbar{
+      position:sticky;
+      top:0;
+      z-index:1000;
+      background:rgba(11,15,26,0.88);
+      backdrop-filter:blur(10px);
+      border-bottom:1px solid var(--border);
+    }
+
+    body.light-mode .navbar{
+      background:rgba(255,255,255,0.9);
+    }
+
+    .nav-wrap{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:18px 0;
+    }
+
+    .logo{
+      font-size:24px;
+      font-weight:800;
+      color:var(--primary);
+    }
+
+    .logo span{ color:var(--secondary); }
+
+    .nav-links{
+      display:flex;
+      gap:22px;
+      align-items:center;
+    }
+
+    .nav-links a{
+      font-size:15px;
+      font-weight:500;
+      transition:0.3s;
+    }
+
+    .nav-links a:hover{ color:var(--primary); }
+
+    .nav-actions{
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+
+    .theme-btn{
+      width:42px;
+      height:42px;
+      border-radius:50%;
+      border:none;
+      background:var(--card);
+      color:var(--primary);
+      cursor:pointer;
+      font-size:18px;
+      border:1px solid var(--border);
+    }
+
+    .menu-btn{
+      display:none;
+      font-size:28px;
+      cursor:pointer;
+      color:var(--primary);
+    }
+
+    .mobile-menu{
+      position:fixed;
+      top:0;
+      right:-100%;
+      width:280px;
+      height:100%;
+      background:var(--bg2);
+      padding:30px 20px;
+      transition:0.4s ease;
+      z-index:1200;
+      border-left:1px solid var(--border);
+    }
+
+    .mobile-menu.active{ right:0; }
+
+    .mobile-menu .close-btn{
+      text-align:right;
+      font-size:28px;
+      margin-bottom:25px;
+      cursor:pointer;
+      color:var(--primary);
+    }
+
+    .mobile-menu a{
+      display:block;
+      margin:16px 0;
+      font-size:16px;
+      font-weight:600;
+    }
+
+/* Hero */
+    .hero{
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      padding:70px 0;
+      background:
+        radial-gradient(circle at top right, rgba(0,255,229,0.08), transparent 30%),
+        radial-gradient(circle at bottom left, rgba(255,79,216,0.08), transparent 30%);
+    }
+
+    .hero-grid{
+      display:grid;
+      grid-template-columns:1.2fr 1fr;
+      gap:50px;
+      align-items:center;
+    }
+
+    .hero-tag{
+      color:var(--primary);
+      font-weight:600;
+      margin-bottom:12px;
+      letter-spacing:1px;
+    }
+
+    .hero h1{
+      font-size:58px;
+      line-height:1.1;
+      margin-bottom:15px;
+    }
+
+    .hero h1 span{ color:var(--primary); }
+
+    .hero h2{
+      font-size:24px;
+      color:var(--muted);
+      margin-bottom:20px;
+      min-height:40px;
+    }
+
+    .hero p{
+      color:var(--muted);
+      font-size:16px;
+      line-height:1.9;
+      margin-bottom:28px;
+      max-width:620px;
+    }
+
+    .hero-buttons{
+      display:flex;
+      gap:15px;
+      flex-wrap:wrap;
+      margin-bottom:30px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:13px 22px;
+      border-radius:12px;
+      font-weight:600;
+      transition:0.3s;
+      border:2px solid transparent;
+    }
+
+    .btn-primary{
+      background:var(--primary);
+      color:#000;
+    }
+
+    .btn-primary:hover{
+      transform:translateY(-3px);
+      box-shadow:0 10px 25px var(--shadow);
+    }
+
+    .btn-secondary{
+      border-color:var(--secondary);
+      color:var(--secondary);
+    }
+
+    .btn-secondary:hover{
+      background:var(--secondary);
+      color:#000;
+      transform:translateY(-3px);
+    }
+
+    .hero-image{
+      text-align:center;
+      position:relative;
+    }
+
+    .hero-image img{
+      width:100%;
+      max-width:360px;
+      border-radius:28px;
+      border:3px solid rgba(0,255,229,0.25);
+      box-shadow:0 0 40px var(--shadow);
+      object-fit:cover;
+    }
+
+    .badge-floating{
+      position:absolute;
+      bottom:10px;
+      left:20px;
+      background:var(--bg2);
+      border:1px solid var(--border);
+      padding:12px 14px;
+      border-radius:14px;
+      font-size:13px;
+      color:var(--primary);
+      font-weight:600;
+    }
+
+
+    /* Stats */
+    .stats{
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:18px;
+      margin-top:25px;
+    }
+
+    .stat-card{
+      background:var(--card);
+      border:1px solid var(--border);
+      padding:18px;
+      border-radius:18px;
+      text-align:center;
+      transition:0.3s;
+      backdrop-filter:blur(10px);
+    }
+
+    .stat-card:hover{
+      transform:translateY(-6px);
+      border-color:rgba(0,255,229,0.35);
+    }
+
+    .stat-card h3{
+      font-size:28px;
+      color:var(--primary);
+      margin-bottom:8px;
+    }
+
+    .stat-card p{
+      font-size:14px;
+      color:var(--muted);
+    }
+
+    /* Cards */
+    .card-grid{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:22px;
+    }
+
+    .card{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:22px;
+      padding:24px;
+      transition:0.35s;
+      backdrop-filter:blur(12px);
+    }
+
+    .card:hover{
+      transform:translateY(-8px);
+      border-color:rgba(0,255,229,0.35);
+      box-shadow:0 10px 30px rgba(0,255,229,0.08);
+    }
+
+    .card h3{
+      font-size:20px;
+      margin-bottom:12px;
+    }
+
+    .card p{
+      color:var(--muted);
+      font-size:15px;
+      line-height:1.8;
+    }
+
+    .tag{
+      display:inline-block;
+      margin-top:14px;
+      padding:8px 12px;
+      border-radius:999px;
+      background:rgba(0,255,229,0.12);
+      color:var(--primary);
+      font-size:12px;
+      font-weight:600;
+    }
+
+    /* Skill bars */
+    .skills-grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:24px;
+    }
+
+    .skill-card{
+      background:var(--card);
+      border:1px solid var(--border);
+      padding:22px;
+      border-radius:20px;
+    }
+
+    .skill{
+      margin-bottom:20px;
+    }
+
+    .skill:last-child{ margin-bottom:0; }
+
+    .skill-top{
+      display:flex;
+      justify-content:space-between;
+      margin-bottom:8px;
+      font-size:14px;
+      font-weight:600;
+    }
+
+    .skill-top span:last-child{
+      color:var(--primary);
+    }
+
+    .skill-bar{
+      width:100%;
+      height:10px;
+      background:rgba(255,255,255,0.08);
+      border-radius:999px;
+      overflow:hidden;
+    }
+
+    .skill-fill{
+      height:100%;
+      width:0;
+      border-radius:999px;
+      background:linear-gradient(90deg, var(--primary), var(--secondary));
+      transition:width 1.5s ease;
+    }
+
+    /* Filters */
+    .filter-wrap{
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:12px;
+      margin-bottom:30px;
+    }
+
+    .filter-btn{
+      padding:10px 18px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background:var(--card);
+      color:var(--text);
+      cursor:pointer;
+      font-weight:600;
+      transition:0.3s;
+    }
+
+    .filter-btn.active,
+    .filter-btn:hover{
+      background:var(--primary);
+      color:#000;
+      border-color:transparent;
+    }
+
+    .project-card,
+    .cert-card{
+      display:block;
+    }
+
+    .project-links{
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      margin-top:16px;
+    }
+
+    .mini-link{
+      font-size:13px;
+      font-weight:600;
+      color:var(--primary);
+    }
+
+    /* AI section */
+    .highlight-box{
+      background:linear-gradient(135deg, rgba(0,255,229,0.08), rgba(255,79,216,0.08));
+      border:1px solid var(--border);
+      border-radius:24px;
+      padding:30px;
+    }
+
+    .highlight-grid{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:20px;
+      margin-top:25px;
+    }
+
+    /* Timeline */
+    .timeline{
+      position:relative;
+      max-width:900px;
+      margin:auto;
+    }
+
+    .timeline::before{
+      content:"";
+      position:absolute;
+      left:50%;
+      top:0;
+      width:3px;
+      height:100%;
+      background:rgba(0,255,229,0.2);
+      transform:translateX(-50%);
+    }
+
+    .timeline-item{
+      width:50%;
+      padding:10px 30px 30px 30px;
+      position:relative;
+    }
+
+    .timeline-item:nth-child(odd){
+      left:0;
+      text-align:right;
+    }
+
+    .timeline-item:nth-child(even){
+      left:50%;
+    }
+
+    .timeline-content{
+      background:var(--card);
+      border:1px solid var(--border);
+      padding:22px;
+      border-radius:18px;
+    }
+
+    .timeline-content h3{
+      color:var(--primary);
+      margin-bottom:8px;
+      font-size:19px;
+    }
+
+    .timeline-content span{
+      display:inline-block;
+      font-size:13px;
+      color:var(--secondary);
+      margin-bottom:10px;
+      font-weight:600;
+    }
+
+    .timeline-content p{
+      color:var(--muted);
+      line-height:1.8;
+      font-size:14px;
+    }
+
+    /* CTA */
+    .cta{
+      text-align:center;
+    }
+
+    .cta-box{
+      background:linear-gradient(135deg, rgba(0,255,229,0.08), rgba(255,79,216,0.08));
+      border:1px solid var(--border);
+      border-radius:28px;
+      padding:40px 25px;
+    }
+
+    .cta-box h2{
+      font-size:34px;
+      margin-bottom:14px;
+      color:var(--primary);
+    }
+
+    .cta-box p{
+      color:var(--muted);
+      max-width:700px;
+      margin:0 auto 24px;
+      line-height:1.8;
+    }
+
+    /* Contact */
+    .contact-grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:25px;
+      align-items:stretch;
+    }
+
+    .contact-card, .contact-form{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:22px;
+      padding:28px;
+      width:100%;
+    }
+
+    .contact-card h3,
+    .contact-form h3{
+      color:var(--primary);
+      margin-bottom:18px;
+      font-size:24px;
+    }
+
+    .contact-item{
+      margin-bottom:14px;
+      color:var(--muted);
+      line-height:1.7;
+      word-break:break-word;
+    }
+
+    .contact-item strong{
+      color:var(--text);
+    }
+
+    .contact-form input,
+    .contact-form textarea{
+      width:100%;
+      padding:14px 15px;
+      margin-bottom:14px;
+      border:1px solid var(--border);
+      border-radius:12px;
+      background:var(--bg2);
+      color:var(--text);
+      font-family:inherit;
+      outline:none;
+    }
+
+    .contact-form textarea{
+      min-height:130px;
+      resize:vertical;
+    }
+
+    /* Floating socials */
+    .floating-socials{
+      position:fixed;
+      left:18px;
+      top:50%;
+      transform:translateY(-50%);
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+      z-index:999;
+    }
+
+    .social-btn{
+      width:44px;
+      height:44px;
+      border-radius:50%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:var(--card);
+      border:1px solid var(--border);
+      color:var(--primary);
+      transition:0.3s;
+    }
+
+    .social-btn:hover{
+      transform:translateY(-3px);
+      background:var(--primary);
+      color:#000;
+    }
+
+    /* Visitor */
+    .visitor{
+      margin-top:16px;
+      display:inline-block;
+      padding:10px 16px;
+      border-radius:999px;
+      background:var(--card);
+      border:1px solid var(--border);
+      color:var(--primary);
+      font-size:14px;
+      font-weight:600;
+    }
+
+    /* Footer */
+    footer{
+      padding:25px 0;
+      text-align:center;
+      border-top:1px solid var(--border);
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    .top-btn{
+      position:fixed;
+      bottom:25px;
+      right:25px;
+      width:48px;
+      height:48px;
+      border-radius:50%;
+      background:var(--primary);
+      color:#000;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:22px;
+      font-weight:700;
+      box-shadow:0 10px 20px var(--shadow);
+      z-index:1000;
+    }
+
+    @media (max-width: 992px){
+      .hero-grid,
+      .card-grid,
+      .stats,
+      .highlight-grid,
+      .skills-grid,
+      .contact-grid{
+        grid-template-columns:1fr 1fr;
+      }
+
+      .timeline::before{
+        left:20px;
+      }
+
+      .timeline-item,
+      .timeline-item:nth-child(even),
+      .timeline-item:nth-child(odd){
+        width:100%;
+        left:0;
+        text-align:left;
+        padding-left:55px;
+        padding-right:0;
+      }
+
+      .floating-socials{
+        display:none;
+      }
+    }
+
+    @media (max-width: 768px){
+      .nav-links{ display:none; }
+      .menu-btn{ display:block; }
+
+      .hero-grid,
+      .card-grid,
+      .stats,
+      .highlight-grid,
+      .skills-grid,
+      .contact-grid{
+        grid-template-columns:1fr;
+      }
+
+      .hero{
+        text-align:center;
+      }
+
+      .hero p{
+        margin-left:auto;
+        margin-right:auto;
+      }
+
+      .hero h1{
+        font-size:40px;
+      }
+
+      .hero h2{
+        font-size:20px;
+      }
+
+      .hero-buttons{
+        justify-content:center;
+      }
+
+      .section-title{
+        font-size:30px;
+      }
+
+      .cta-box h2{
+        font-size:28px;
+      }
+
+      .contact-card,
+      .contact-form{
+        padding:22px;
+      }
+
+      .top-btn{
+        width:42px;
+        height:42px;
+        font-size:18px;
+        right:15px;
+        bottom:15px;
+      }
+    
+
+ .achievement-link-section {
+  text-align: center;
+  padding: 60px 20px;
+  margin: 50px 20px;
+  background: #f8fbff;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.achievement-link-section h2 {
+  font-size: 2rem;
+  color: #0a3d62;
+  margin-bottom: 10px;
+}
+
+.achievement-link-section p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.achievement-btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background: linear-gradient(135deg, #0077ff, #00c6ff);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.achievement-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0, 119, 255, 0.25);
+}
+
+      .visit-counter-inline {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.visit-counter-inline img {
+  height: 24px;
+  border-radius: 6px;
+}
+    
+  </style>
+</head>
+<body>
+
+  <!-- Floating Socials -->
+  <div class="floating-socials">
+    <a href="https://github.com/zahratech123" target="_blank" class="social-btn"><i class="fab fa-github"></i></a>
+    <a href="https://linkedin.com/in/gecdhd-ec-zahra" target="_blank" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+    <a href="mailto:zaranwalazahra@gmail.com" class="social-btn"><i class="fas fa-envelope"></i></a>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-wrap">
+      <div class="logo">Zahra<span>XTech⚡</span></div>
+
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#ai-ml">AI/ML</a>
+        <a href="#journey">Journey</a>
+         <a href="#viewmywork">EXPLORE MORE OF MY WORK</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-btn" id="themeToggle"><i class="fas fa-moon"></i></button>
+        <div class="menu-btn" id="menuBtn">☰</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="close-btn" id="closeBtn">✕</div>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#ai-ml">AI/ML</a>
+    <a href="#journey">Journey</a>
+    <a href="#viewmywork"> VIEW MY WORK</a>
+     <a href="#contact">Contact</a>
+
+</a>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div data-aos="fade-right">
+        <div class="hero-tag">HELLO, I'M</div>
+        <h1>Zahra <span>Zaranwala</span></h1>
+         <div class="hero-image" data-aos="fade-left">
+        <img src="profile.jpg" alt="Zahra Zaranwala Portfolio Photo">
+        <div class="badge-floating">✨ Emerging AI & Automation Enthusiast</div>
+      </div>
+  <h2><span id="typed"></span></h2>
+        <p>
+          I’m an Electronics & Communication Engineering student passionate about
+          Artificial Intelligence, Embedded Systems, Automation, Signal Processing,
+          and future Robotics. My mission is to become an AI Product Engineer and
+          build impactful technology that combines hardware intelligence and software innovation.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#viewmywork" class="btn btn-primary">VIEW MY WORK</a>
+          <a href="Zahra-Zaranwala-Resume.pdf" target="_blank" class="btn btn-secondary">Download Resume</a>
+
+       <p class="visit-counter">
+  Portfolio Visits:
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=zahra.mainportfolio" alt="visitor badge">
+</p>
+ </div>
+
+        <div class="stats">
+          <div class="stat-card">
+            <h3>3rd</h3>
+            <p>Year ECE</p>
+          </div>
+          <div class="stat-card">
+            <h3>8+</h3>
+            <p>Tech Skills</p>
+          </div>
+          <div class="stat-card">
+            <h3>40+</h3>
+            <p>Certifications</p>
+          </div>
+          <div class="stat-card">
+            <h3>2100+</h3>
+            <p>linkedin followers</p>
+          </div>
+           <div class="stat-card">
+            <h3>50+</h3>
+            <p>technical posts</p>
+          </div>
+        </div>
+        </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">About Me</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+        This is the official premium portfolio website of Zahra Zaranwala.
+        I am a 3rd year Electronics & Communication Engineering student from Government Engineering College, Dahod,
+        focused on AI, Embedded Systems, Web Development, and long-term growth toward Artificial intelligence & Automation.
+      </p>
+
+      <div class="card-grid">
+        <div class="card" data-aos="zoom-in">
+          <h3>🎓 Education</h3>
+          <p>
+            Currently pursuing B.E. in Electronics & Communication Engineering (ECE),
+            with academic focus in communication systems, signal processing, and electronics.
+          </p>
+        </div>
+
+        <div class="card" data-aos="zoom-in" data-aos-delay="100">
+          <h3>🤖 Career Vision</h3>
+          <p>
+  I aim to build a strong foundation in modern technology by combining intelligent software, engineering principles, and practical problem-solving to create impactful real-world solutions.
+</p>
+        </div>
+
+        <div class="card" data-aos="zoom-in" data-aos-delay="200">
+          <h3>📖 Discipline & Excellence</h3>
+          <p>
+            Alongside engineering, I value deep discipline, consistent learning,
+            strong personal growth, and meaningful balance between technical excellence and faith.
+          </p>
+        </div>
+      </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Advanced Tech Skills</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+        Core technical capabilities I’m developing through coursework, projects, and self-learning.
+      </p>
+
+      <div class="skills-grid">
+        <div class="skill-card" data-aos="fade-right">
+          <div class="skill">
+            <div class="skill-top"><span>HTML / CSS</span><span>70%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="70%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-top"><span>JavaScript</span><span>70%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="70%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-top"><span>Python</span><span>50%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="50%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-top"><span>GitHub</span><span>70%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="70%"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-card" data-aos="fade-left">
+          <div class="skill">
+            <div class="skill-top"><span>MATLAB</span><span>50%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="50%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-top"><span>Machine Learning Basics</span><span>50%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="50%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-top"><span>Embedded Systems Concepts</span><span>50%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="50%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-top"><span>Problem Solving</span><span>50%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="50%"></div></div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+        A curated mix of ECE, Web Development, and beginner AI-oriented projects aligned with my future career.
+      </p>
+
+      <div class="filter-wrap" data-aos="fade-up" data-aos-delay="150">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ece">ECE</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="ai">AI/ML</button>
+      </div>
+
+      <div class="card-grid">
+        <div class="card project-card" data-category="web" data-aos="fade-up">
+          <h3>Zaranwala Grocery Project</h3>
+          <p>
+            A grocery-related project built to represent digital business thinking,
+            user-friendly structure, and real-world practical website or system concepts for business growth.
+          </p>
+          <span class="tag">Business / Web Project</span>
+          <div class="project-links">
+            <a href="#" class="mini-link">🔗 GitHub</a>
+          </div>
+        </div>
+
+        <div class="card project-card" data-category="web" data-aos="fade-up" data-aos-delay="100">
+          <h3>Premium Portfolio Website</h3>
+          <p>
+            Built a responsive personal portfolio website with SEO optimization, dark/light mode,
+            animations, filtering, and GitHub Pages deployment for professional branding.
+          </p>
+          <span class="tag">Web Development</span>
+          <div class="project-links">
+            <a href="https://zahratech123.github.io/zatech-ad-portfolio/" target="_blank" class="mini-link">🌐 Live Demo</a>
+            <a href="https://github.com/zahratech123" target="_blank" class="mini-link">🔗 GitHub</a>
+          </div>
+        </div>
+
+        <div class="card project-card" data-category="web" data-aos="fade-up" data-aos-delay="200">
+          <h3>Calculator Web App</h3>
+          <p>
+            Created a clean and functional calculator using HTML, CSS, and JavaScript
+            to strengthen frontend logic and build a LinkedIn/GitHub showcase project.
+          </p>
+          <span class="tag">JavaScript Project</span>
+          <div class="project-links">
+            <a href="#" class="mini-link">🔗 GitHub</a>
+          </div>
+        </div>
+
+        <div class="card project-card" data-category="ai" data-aos="fade-up">
+          <h3>AI / ML Learning Dashboard Concept</h3>
+          <p>
+            A beginner AI showcase concept representing ML learning progress, model understanding,
+            prompt engineering, and future AI project planning.
+          </p>
+          <span class="tag">AI / ML</span>
+          <div class="project-links">
+            <a href="#" class="mini-link">📊 View Concept</a>
+            <a href="#" class="mini-link">🔗 GitHub</a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Certifications & Learning</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+        Key learning milestones that support my technical and leadership growth.
+      </p>
+
+      <div class="filter-wrap" data-aos="fade-up" data-aos-delay="150">
+        <button class="filter-btn active cert-filter" data-cert="all">All</button>
+        <button class="filter-btn cert-filter" data-cert="leadership">Leadership</button>
+        <button class="filter-btn cert-filter" data-cert="ai">AI/ML</button>
+        <button class="filter-btn cert-filter" data-cert="tech">Tech</button>
+      </div>
+
+      <div class="card-grid">
+        <div class="card cert-card" data-cert-category="leadership" data-aos="zoom-in">
+          <h3>Google Student Ambassador</h3>
+          <p>
+            Strengthened leadership, communication, campus engagement, and professional visibility
+            through ambassador responsibilities and community activities.
+          </p>
+          <span class="tag">Leadership</span>
+        </div>
+
+        <div class="card cert-card" data-cert-category="ai" data-aos="zoom-in" data-aos-delay="100">
+          <h3>Machine Learning Fundamentals</h3>
+          <p>
+            Built foundational understanding of machine learning concepts, data flow,
+            model thinking, and beginner AI workflows.
+          </p>
+          <span class="tag">AI / ML</span>
+        </div>
+
+        <div class="card cert-card" data-cert-category="ai" data-aos="zoom-in" data-aos-delay="200">
+          <h3>Generative AI Learning</h3>
+          <p>
+            Explored LLMs, prompt engineering, AI ethics, and real-world use cases of generative AI.
+          </p>
+          <span class="tag">GenAI</span>
+        </div>
+
+        <div class="card cert-card" data-cert-category="tech" data-aos="zoom-in">
+          <h3>Technical Workshop / Engineering Exposure</h3>
+          <p>
+            Participated in technical workshops, engineering learning activities, and innovation-focused sessions.
+          </p>
+          <span class="tag">Tech Learning</span>
+        </div>
+      </div>
+  </section>
+
+  
+
+
+  <!-- AI / ML -->
+  <section id="ai-ml">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">AI / ML Growth Track</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+        This section highlights my direction toward becoming an AI Product Engineer.
+      </p>
+
+      <div class="highlight-box" data-aos="fade-up" data-aos-delay="150">
+        <p style="color:var(--muted); line-height:1.9;">
+          I am actively building my AI foundation through Python, machine learning concepts,
+          prompt engineering, project thinking, and product-oriented technology learning.
+          My long-term goal is to create intelligent systems that connect software, hardware,
+          and human-centered design.
+        </p>
+
+        <div class="highlight-grid">
+          <div class="card">
+            <h3>🧠 ML Concepts</h3>
+            <p>Regression, classification, overfitting, train-test split, evaluation basics.</p>
+          </div>
+
+          <div class="card">
+            <h3>⚡ GenAI</h3>
+            <p>Prompt engineering, LLM use cases, AI workflows, productivity applications.</p>
+          </div>
+
+          <div class="card">
+            <h3>🚀 Future Direction</h3>
+            <p>AI products, embedded intelligence, robotics integration, and smart systems.</p>
+          </div>
+        </div>
+      </div>
+  </section>
+       
+
+
+  <!-- Journey -->
+  <section id="journey">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">My Journey</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+        Important milestones in academic, technical, leadership, and personal growth.
+      </p>
+
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-content">
+            <h3>Government Engineering College, Dahod</h3>
+            <span>2023 – Present</span>
+            <p>
+              Pursuing B.E. in Electronics & Communication Engineering with increasing focus on AI,
+              communication systems, embedded concepts, and future innovation.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-content">
+            <h3>Google Student Ambassador</h3>
+            <span>Leadership Milestone</span>
+            <p>
+              Built confidence, communication, and student community presence through ambassador activities.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-content">
+            <h3>Agnirva Space Learning Exposure</h3>
+            <span>Technical Curiosity</span>
+            <p>
+              Expanded interest in innovation, space-tech thinking, and broader engineering possibilities.
+            </p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="viewmywork">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">EXPLORE MORE OF MY WORK</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+       View my achievements, certificates, internships, and project highlights in my dedicated portfolio by clicking below blue button 👇.
+      </p>
+
+  <a href="https://zaacheivelabssite.vercel.app" target="_blank" class="achievement-btn">
+    View My Achievements & Certificates 
+  </a>
+</section>
+
+  
+
+  <!-- Hire Me CTA -->
+  <section class="cta">
+    <div class="container">
+      <div class="cta-box" data-aos="zoom-in">
+        <h2>Let’s Build Something Meaningful</h2>
+        <p>
+          I’m open to internships, collaborations, student opportunities, tech communities,
+          beginner AI projects, and growth-driven engineering experiences.
+        </p>
+        <a href="#contact" class="btn btn-primary">Hire / Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Contact Me</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+        Let’s connect for collaborations, internships, projects, and learning opportunities.
+      </p>
+
+      <div class="contact-grid">
+        <div class="contact-card" data-aos="fade-right">
+          <h3>Get In Touch</h3>
+          <div class="contact-item"><strong>Email:</strong> zaranwalazahra@gmail.com</div>
+          <div class="contact-item"><strong>GitHub:</strong> github.com/zahratech123</div>
+          <div class="contact-item"><strong>LinkedIn:</strong> linkedin.com/in/gecdhd-ec-zahra</div>
+          <div class="contact-item"><strong>Note:</strong> contact me for professional work like projects,internship etc
+          also share other contact information in message if you want </div>
+        </div>
+
+        <!-- IMPORTANT: Replace your-form-id with your real Formspree ID -->
+        <form class="contact-form" data-aos="fade-left" action="https://formspree.io/f/xjgapkbw" method="POST">
+          <h3>Send Message</h3>
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-primary" style="border:none; cursor:pointer;">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Zahra Zaranwala | Premium Portfolio | Built with passion, purpose & growth
+  </footer>
+
+  <a href="#home" class="top-btn">↑</a>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 900,
+      once: true
+    });
+
+    // Typed text
+    var typed = new Typed('#typed', {
+      strings: [
+        'EC engineer Student',
+        'AI Learner',
+        'Future  Engineer',
+        'Tech Explorer',
+        'ELECTRONICS Enthusiast',
+        'CONTINUOUS LEARNER',
+        'ARTIFICIAL INTELLIGENCE ENTHUSISTIC'
+      ],
+      typeSpeed: 55,
+      backSpeed: 35,
+      backDelay: 1400,
+      loop: true
+    });
+
+    // Mobile menu
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const closeBtn = document.getElementById('closeBtn');
+
+    menuBtn.addEventListener('click', () => mobileMenu.classList.add('active'));
+    closeBtn.addEventListener('click', () => mobileMenu.classList.remove('active'));
+
+    document.querySelectorAll('.mobile-menu a') . forEach(link => {
+      link.addEventListener('click', () => mobileMenu.classList.remove('active'));
+    });
+
+    // Theme toggle
+    const themeToggle = document.getElementById('themeToggle');
+    const body = document.body;
+    const savedTheme = localStorage.getItem('theme');
+
+    if(savedTheme === 'light'){
+      body.classList.add('light-mode');
+      themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+    }
+
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('light-mode');
+      if(body.classList.contains('light-mode')){
+        localStorage.setItem('theme', 'light');
+        themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+      } else {
+        localStorage.setItem('theme', 'dark');
+        themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+      }
+    });
+
+    // Animated skill bars
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.skill-fill').forEach(bar => {
+        const width = bar.getAttribute('data-width');
+        setTimeout(() => {
+          bar.style.width = width;
+        }, 400);
+      });
+    });
+
+    // Project filter
+    const projectBtns = document.querySelectorAll('.filter-btn[data-filter]');
+    const projectCards = document.querySelectorAll('. project-card');
+
+    projectBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        projectBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.getAttribute('data-filter');
+
+        projectCards.forEach(card => {
+          const category = card.getAttribute('data-category');
+          if(filter === 'all' || category === filter){
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Certificate filter
+    const certBtns = document.querySelectorAll('. cert-filter');
+    const certCards = document.querySelectorAll('. cert-card');
+
+    certBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        certBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.getAttribute('data-cert');
+
+        certCards.forEach(card => {
+          const category = card.getAttribute('data-cert-category');
+          if(filter === 'all' || category === filter){
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Visitor counter (local browser only)
+    let visits = localStorage.getItem('zahraPortfolioVisits');
+    visits = visits ? parseInt(visits) + 1 : 1;
+    localStorage.setItem('zahraPortfolioVisits', visits);
+    document.getElementById('visitorCounter').innerText = '👀 Portfolio Visits: ' 
+    + visits;
+</script>
+
+</body>
+</html>
