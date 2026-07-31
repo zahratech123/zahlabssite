@@ -18,7 +18,7 @@ export const PERSONAL_INFO = {
   linkedin: "https://linkedin.com/in/gecdhd-ec-zahra",
   site1Url: "https://zahralabssite.vercel.app",
   site2Url: "https://zaacheivelabssite.vercel.app",
-  resumePdf: "/Zahra-Zaranwala-Resume.pdf",
+   resumePdf: "https://drive.google.com/file/d/1T6RdTyT8ksKBWpELds0O8y9sdzD32chh/view?usp=drive_link",
   avatarImage: "https://zahratech123.github.io/zatech-ad-portfolio/my.jpg",
   location: "Dahod, Gujarat, India",
   stats: {
